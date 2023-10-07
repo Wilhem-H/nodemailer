@@ -7,7 +7,7 @@ const sendContactMail = (req, res) => {
   const mailOptions = {
     from: mail,
     to: "wilhem.hafsa@outlook.fr",
-    subject: "New message from user",
+    subject: "Nouveau scénario de 'Et si ...?'",
     text: `${details} \n\n scenario: ${scenario} \n\n firstname: ${firstname} \n\n lastname: ${lastname} \n\n mail: ${mail}`,
     html: `<p>${details}</p> <p>scenario: ${scenario}</p> <p>firstname: ${firstname}</p> <p>lastname: ${lastname}</p> <p>mail: ${mail}</p>`,
   };
